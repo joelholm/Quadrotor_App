@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="UP"
+            android:id="@+id/upButton"
+            android:layout_weight=".5"
+            android:background="#42703f" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Down"
+            android:id="@+id/downButton"
+            android:layout_weight=".5"
+            android:background="#9a3434" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:id="@+id/clockwise"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/clockwise" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/pause_button"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pause"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/counterClockwise"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/counter_clockwise" />
+
+</RelativeLayout>
