@@ -19,11 +19,11 @@
         android:layout_height="wrap_content"
         android:text="Resume"
         android:id="@+id/resume"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3" />
+        android:layout_below="@+id/calibrate"
+        android:layout_alignLeft="@+id/calibrate"
+        android:layout_alignStart="@+id/calibrate"
+        android:layout_alignRight="@+id/calibrate"
+        android:layout_alignEnd="@+id/calibrate" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calibrate"
-        android:id="@+id/button3"
+        android:id="@+id/calibrate"
         android:layout_below="@+id/end"
         android:layout_alignLeft="@+id/end"
         android:layout_alignStart="@+id/end"
